@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // 관리자 로그인 처리
         if (enteredEmail === "admin") {
-            window.location.href = '../admin.html';
+            window.location.href = '../html/admin.html';
             return; // 이후 코드 실행 방지
         }
 

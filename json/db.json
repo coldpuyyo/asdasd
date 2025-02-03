@@ -1,0 +1,19 @@
+{
+  "clientData": [
+    {
+      "id": "2f24",
+      "clientName": "김강민",
+      "clientId": "asd@gmail.com",
+      "clientPwd": "asd"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "fce0",
+      "nickname": "김강민",
+      "review": "ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅊㅋㅌㅊㅋㅌㅊ",
+      "rating": 5,
+      "timestamp": "2025-02-03T07:54:00.663Z"
+    }
+  ]
+}

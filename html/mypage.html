@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/mypage.css">
+    <script defer src="../js/mypage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <script defer src="../js/header.js"></script>
+    
+
+    <div class="container">
+        <!-- 프로필 정보 -->
+        <div class="profile-section">
+            <h2>회원 프로필</h2>
+            <p><strong>이름:</strong> <span id="user-name"></span></p>
+            <p><strong>ID:</strong> <span id="user-email"></span></p>
+        </div>
+
+        <!-- 활동 내역 -->
+        <div class="activity-section">
+            <h3>활동 내역</h3>
+            <div id="activity-list"></div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+    <script defer src="../js/footer.js"></script>
+   
+
+
+</body>
+
+</html>
